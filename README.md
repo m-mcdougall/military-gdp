@@ -6,7 +6,7 @@ GDP data was downloaded from the WorldBank website [https://data.worldbank.org/i
 
 Global Populaion Data were downloaded from the WorldBank website [https://data.worldbank.org/indicator/SP.POP.TOTL], using the total population, spanning the entire data availability (1960 - 2019 at time of download).
 
-Military expenditure data were downloaded from SIPRI -  the Stolkholm International Peace Research Institute [https://www.sipri.org/databases/milex], specifically the 'Data for all countries 1949–2019 (excel spreadsheet)'. 
+Military expenditure data were downloaded from the WorldBank website,[https://data.worldbank.org/indicator/MS.MIL.XPND.CD] with the original data gathered by SIPRI -  the Stolkholm International Peace Research Institute [https://www.sipri.org/databases/milex]. The dataset uses the military expenditure in current USD, spanning the entire data availability (1960 - 2019 at time of download).
 
 
 
@@ -20,4 +20,3 @@ Military expenditure data were downloaded from SIPRI -  the Stolkholm Internatio
 
 
 ## Future Analyses
-
