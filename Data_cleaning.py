@@ -184,7 +184,7 @@ def basic_plot_1_cat(df, data_type):
 
 
 
-for i in range(4):
+for i in range(3):
     basic_plot_1_cat(data[i], data_order[i])
 
 
