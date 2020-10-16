@@ -16,7 +16,6 @@ Import Section
 """
 import pandas as pd
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 import os
 
@@ -163,30 +162,18 @@ data=[df_extract_years(datum,2000, 2017) for datum in data]
     
 #%%
 
-test=data[0]
+#Put data in terms of billions
 
-def basic_plot_1_cat(df, data_type):
-
-    str_dict={'GDP':['Gross Domestic Product', 'GDP in Millions (USD)'], 
-              'POP':['Population', 'Population (Total Estimated)'], 
-              'MIL':['Military Expenditure', 'Expenditure in Millions (USD)']}
-    
-    
-    
-    plt.figure(figsize=(11,4))
-    for i in range(10):
-        plt.plot(df.columns[2:], df.iloc[i,2:])
-    
-    plt.title(str_dict[data_type][0])
-    plt.ylabel(str_dict[data_type][1])
-    plt.legend(df.iloc[:,0], bbox_to_anchor=(1.0, .9))
+data[0].iloc[:,2:]=data[0].iloc[:,2:]/10**9
+data[1].iloc[:,2:]=data[1].iloc[:,2:]/10**6
+data[2].iloc[:,2:]=data[2].iloc[:,2:]/10**9
 
 
 
 
+#%%
 for i in range(3):
-    basic_plot_1_cat(data[i], data_order[i])
-
+    data[i].to_csv(wd+'\\cleaned_data_'+data_order[i]+'.csv')
 
 
 

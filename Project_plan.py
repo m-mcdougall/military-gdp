@@ -21,3 +21,8 @@ Created on Sun Oct  4 12:46:46 2020
 
 """"
 
+#Directly compare mil to gdp for each country
+#Stack plot of all spendings to have each as a percent as total
+#Linearregression, plot the change
+
+#Maybe have the map repressent rank order?
