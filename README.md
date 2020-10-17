@@ -12,11 +12,24 @@ Military expenditure data were downloaded from the WorldBank website,[https://da
 
 ## Repository Contents
 
+Data
+  - Data from the links above included in he file for convenience and continuity.
+  
+Jupyter Notebook
+  - Analysis script and interpretation
 
 ## Functions
 
+  - Cleaning scripts, filtering by year and country.
 
 ## Visualization
 
+  - Lineplots of Population, GDP and Military Expenditure (Absolute dollar values and per capita)
+  - Stacked barplots of total spending for subsets of countries (Absolute dollar values and per capita)
+  - Grouped barplots comparing changes in military spending, both on an annual basis or comparing two years. (Absolute dollar change and percent change)
+  - Cartopy plots of Military spending comparing changes between years (Absolute dollar change and percent change)
+
 
 ## Future Analyses
+
+ - None planned.
